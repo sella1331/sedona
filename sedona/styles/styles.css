@@ -1,0 +1,220 @@
+
+@font-face{
+font-family: "PT Sans";
+font-style: normal;
+font-weight: 400;
+src: url("/fonts/ptsans400.woff2") format("woff2");
+font-display: swap;
+}
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/ptsans700.woff2") format("woff2");
+    font-display: swap;
+  }
+  body{
+    background-color: white;
+    font-family: "PT Sans";
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+
+.page-header{
+    background-color:#E5E5E5;
+}
+.navigation-link, .pagination-link{
+    font-family: "PT Sans" sans-serif ;
+    font-size: 20px;
+    font-weight: 700;;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+.title-image{
+    color: black;
+    background-color: white;
+    background-image: url("/image/indexImg.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .button{
+    font-family: inherit;
+    background-color: #756257;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .servises-name, .advented-title-name{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .advented-title-number{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+  }
+  .advented-title{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+    text-transform:none    ;
+    color: inherit;
+  }
+  .footer-contacts-adress-phone{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-transform:none    ;
+    color: inherit;
+  }
+  .intresting-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;  
+  }
+  .intresting-item, .page-newslatter-title-text{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    text-transform:none    ;
+    color: inherit;
+  }
+  .page-newslatter-title, .post-title-text{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;  
+  }
+  .post-title{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    text-transform:none    ;
+    color: inherit; 
+  }
+  .inner-header-title{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 77px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .inner-header{
+    background-image: url(/image/catalogbackground.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .breadcrumbs-link{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: inherit; 
+  }
+  .comtrol{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: inherit; 
+  }
+  .catalog-filter-title{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+    text-transform: inherit; 
+  }
+  .hoctel-title{
+    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    text-decoration: none;
+    text-transform: inherit;   
+  }
+  .advented-list, .advented-list-second{
+    background-color: #83B3D3;
+    
+  }
+  .advented, .servises-item{
+    background-color: rgba(131, 179, 211, 0.2);;
+  }
+  .page-newlatter{
+    background-image: url("/image/mode/backgroundfooter.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .product-card-button.button.favorite{
+    background-color: #83B3D3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;   
+  }
+  .product-card-button.button{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;   
+  }
+  a{
+    text-decoration: none;
+  }
+  .produck-cards-title{ 
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    text-decoration: none;
+    text-transform: inherit; 
+  }
+  .button.newsletter-button, .button.pagination-snow-more, .pagination-link{
+    background-color: #83B3D3;
+    color:white;
+  }
+  .page-footer{
+
+  }
+  .index-columns{
+    text-transform: uppercase;
+  }
+
